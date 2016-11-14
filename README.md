@@ -5,11 +5,11 @@
 
 how many times did you plan to go to attractions trip with your friends, but actually you didnt know these points:
 
-1) is the attraction place available today ?
+1)** is the attraction place available today ?
 
-2) is it cheapest?
+2)**  is it cheapest?
 
-3) is the path is shortest?
+3)** is the path is shortest?
 
 ??!??!?!..
 
