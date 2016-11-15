@@ -4,16 +4,16 @@
 
    ![eco trip2](https://cloud.githubusercontent.com/assets/17565537/20260592/0da9bbf6-aa63-11e6-9a3e-fbfc8d821501.png)
 
-how many times did you plan to go to attractions trip with your friends, but actually you didnt know these points:
+##More Info :
 
-1)** is the attraction place available today ?
+###how many times did you plan to go to attractions trip with your friends, but actually you didnt know these points:
 
-2)**  is it cheapest?
+**1)is the attraction place available today ?**
 
-3)** is the path is shortest?
+**2)is it cheapest?**
 
-??!??!?!..
+**3)is the path is shortest?**
+           
+           This application will manage your trip !! 
 
-this application will manage your trip !! 
-
-the app will be available for ANDROID and IOS.
+           The app will be available for ANDROID and IOS.
