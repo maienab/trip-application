@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  .row
+    .col-md-6.col-md-offset-3
+      h1 Register company
+      hr
+      form(method="post" action="/register") 
+        .form-group
+          label Name Company
+          input.form-control(type="text" name="name")
+
+        .form-group
+          label Website
+          input.form-control(type="text" name="website")
+
+       .form-group
+          label Telephone Number
+          input.form-control(type="number" name="telephone")
+        
+        .form-group
+          label Attractions Type
+          input.form-control(type="text" name="attrction")
+
+
+        button.btn.btn-primary(type="submit") Register

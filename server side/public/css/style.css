@@ -1,0 +1,11 @@
+.navbar{
+  border-radius: 0px;
+}
+
+.login h1{
+  text-align: center;
+}
+
+.border-right{
+  border-right: 1px solid #ccc;
+}

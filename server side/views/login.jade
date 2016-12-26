@@ -1,0 +1,34 @@
+extends layout
+
+block content
+  .row.login
+    .col-md-6.border-right
+      h1 Admin Login
+      hr
+
+      form(method="post" action="/login/admin")
+        .form-group
+          label Username
+          input.form-control(type="text" name="username")
+
+        .form-group
+          label Password
+          input.form-control(type="password" name="password")
+
+        button.btn.btn-primary(type="submit") Login
+
+    .col-md-6
+      h1 Company Login
+      hr
+
+      form(method="post" action="/login/company")
+        .form-group
+          label Username
+          input.form-control(type="text" name="username")
+
+        .form-group
+          label Password
+          input.form-control(type="password" name="password")
+
+        button.btn.btn-primary(type="submit") Login
+
