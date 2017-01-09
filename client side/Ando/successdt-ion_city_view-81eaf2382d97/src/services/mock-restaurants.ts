@@ -1,5 +1,5 @@
 export let RESTAURANTS = [
-  {
+  /*{
     id: 1,
     name: "Quan An Ngon",
     address: "18 Phan Boi Chau | Hoan Kiem Dist, Hanoi 100000, Vietnam",
@@ -281,5 +281,5 @@ export let RESTAURANTS = [
     ],
     thumb: "assets/img/restaurant/thumb/img_6.jpg",
     reviews: []
-  }
+  }*/
 ]

@@ -35,10 +35,10 @@
     <div class="block-title" padding-left padding-right>
       <div class="pull-left">
         <ion-icon name="restaurant" color="restaurant-color"></ion-icon>
-        <span color="restaurant-color">RESTAURANT IDEAS</span>
+        <span color="restaurant-color">מסעדות מומלצות</span>
       </div>
       <div class="pull-right">
-        <span color="restaurant-color" (click)="viewAllRestaurants()">SEE ALL &gt;</span>
+        <span color="restaurant-color" (click)="viewAllRestaurants()">ראה הכל &gt;</span>
       </div>
       <div class="clear"></div>
     </div>
@@ -73,10 +73,10 @@
     <div class="block-title" padding-left padding-right>
       <div class="pull-left">
         <ion-icon name="home" color="hotel-color"></ion-icon>
-        <span color="hotel-color">HOTELS</span>
+        <span color="hotel-color">מלונות בארץ</span>
       </div>
       <div class="pull-right">
-        <span color="hotel-color" (click)="viewAllHotels()">SEE ALL &gt;</span>
+        <span color="hotel-color" (click)="viewAllHotels()">ראה עוד &gt;</span>
       </div>
       <div class="clear"></div>
     </div>
@@ -88,16 +88,16 @@
           <div class="rating">
             <ion-icon name="md-star" color="restaurant-color" *ngFor="let star of range(hotel.rating)"></ion-icon>
             <ion-icon name="md-star" color="gray" *ngFor="let star of range(5 - hotel.rating)"></ion-icon>
-            <span color="gray">{{ hotel.reviews.length }} reviews</span>
+            <span color="gray">{{ hotel.reviews.length }} ביקורות</span>
           </div>
-          <span color="gray">Recommended for:</span>
+          <span color="gray">מומלץ עבור:</span>
           <div>
             <div class="pull-left">
               <span color="restaurant-color">{{ hotel.scores[0].name }},</span>
               <span color="restaurant-color">{{ hotel.scores[1].name }}</span>
             </div>
             <div class="pull-right">
-              {{ hotel.location.distance }} km
+              {{ hotel.location.distance }} ק"מ
             </div>
             <div class="clear"></div>
           </div>
@@ -111,10 +111,10 @@
     <div class="block-title" padding-left padding-right>
       <div class="pull-left">
         <ion-icon name="bicycle" color="attraction-color"></ion-icon>
-        <span color="attraction-color">THINGS TO DO</span>
+        <span color="attraction-color">אטרקציות</span>
       </div>
       <div class="pull-right">
-        <span color="attraction-color" (click)="viewAllAttractions()">SEE ALL &gt;</span>
+        <span color="attraction-color" (click)="viewAllAttractions()">ראה הכל &gt;</span>
       </div>
       <div class="clear"></div>
     </div>

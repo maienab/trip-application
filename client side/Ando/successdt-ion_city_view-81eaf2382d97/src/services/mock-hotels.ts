@@ -1,20 +1,21 @@
 export let HOTELS = [
   {
+
     id: 1,
-    name: "Hanoi Daewoo Hotel",
+    name: "מלון המלך דוד",
     rating: 4.2,
-    stars: 4,
-    price: 125,
-    sale_price: 90,
+    stars: 5,
+    price: 1399,
+    sale_price: 999,
     location: {
-      lat: 21.030746,
-      lon: 105.811913,
+      lat: 31.7744,
+      lon: 35.2226,
       distance: 3.2
     },
-    address: "360 Kim Ma Street Hanoi 100000",
-    description: "Family-friendly Hanoi hotel in Ba Dinh, near Ho Chi Minh Mausoleum ",
-    location_text: "This family-friendly Hanoi hotel is located in the business district, within 1 mi (2 km) of Thu Le Park, Vietnam Museum of Ethnology, and Giang Vo Exhibition Center. Ho Chi Minh Mausoleum and Temple of Literature are also within 2 mi (3 km). ",
-    features: "Along with 3 restaurants, this hotel has a full-service spa and an outdoor pool. Free WiFi in public areas and free valet parking are also provided. Other amenities include a nightclub, a health club, and a bar/lounge. ",
+    address: "המלך דוד 23, ירושלים, 94101",
+    description: "אחד ממלונות הפאר הטובים בעולם, נוף לחומות העיר. ",
+    location_text: "המלון נמצא בירושלים ",
+    features: "במלון יש שירותים למיניהם , שירות אינטרנט , חדר אוכל , ספא וכו'",
     room_amenities: "All 411 rooms feature thoughtful touches like bathrobes and slippers, plus free WiFi, free wired Internet, and LCD TVs with satellite channels. Guests will also find sitting areas, 24-hour room service, and minibars. ",
     thumb: "assets/img/hotel/thumb/img_1.jpg",
     images: [
@@ -28,22 +29,22 @@ export let HOTELS = [
     scores: [
       {
         id: 1,
-        name: "Business Travelers",
+        name: "נוסעים עסקיים",
         score: 98
       },
       {
         id: 2,
-        name: "Family Travelers",
+        name: "משפחה",
         score: 80
       },
       {
         id: 3,
-        name: "Luxury Travelers",
+        name: "יוקרה",
         score: 71
       },
       {
         id: 4,
-        name: "Vegetarian",
+        name: "צמחוניים",
         score: 64
       }
     ],
@@ -52,55 +53,18 @@ export let HOTELS = [
         id: 1,
         username: "David",
         avatar: "assets/img/user/adam.jpg",
-        from: "Ohio",
-        title: "Nice place, as long as you don't want to leave",
-        content: "My wife and myself had two stays in the past week broken by a visit to Holong Bay. The hotel staff were very helpful in all ways, nothing was too much trouble. The taxis that bear the Nikko name were always on hand and good operators (cheap to get around). The bar had a fantastic happy hour being good nibbles and great value. We were always being helped by the concierge operators when coming and going and always translated for us to the taxi drivers. One of my best hotels.",
+        from: "נצרת",
+        title: "מקום מדהים אין ספק , חייב לחזור למקום הזה , ממליץ בחום",
+        content: "אין לי מילים אפילו לתאר כמה נהיננו במלון המיוחד הזה, מהשירות המדהים, האוכל, החדר והאנשים! פשוט אין מילים כמה מדהים! קיבלו אותנו בצורה יפה, אין דבר שביקשנו ואמרו לנו לא, פשוט חלום! אין ספק שנחזור שוב ושוב!",
         rating: 4,
         recommended_for: [1, 3]
-      },
-      {
-        id: 2,
-        username: " epz",
-        avatar: "assets/img/user/ben.png",
-        from: "z",
-        title: "Close to old quarter",
-        content: "4 nights. Nice suite Staff very helpful. Easy to get cabs",
-        rating: 4,
-        recommended_for: [1, 2]
-      },
-      {
-        id:3,
-        username: "Hui Lan",
-        avatar: "assets/img/user/mike.png",
-        from: "Singapore",
-        title: "Short stay",
-        content: "We stayed for 1 night before travelling to Sapa. Hotel reception staff speak limited English and not so friendly. Access to nearby food & beverage outside the hotel is not convenient.",
-        rating: 3,
-        recommended_for: [2, 3]
-      },
-      {
-        id: 4,
-        username: "David",
-        avatar: "assets/img/user/perry.png",
-        from: "Singapore",
-        title: "CONVENIENT LOCATION",
-        content: "I BOOKED THIS HOTEL BECAUSE IT WAS CONVENIENT TO WHERE I NEEDED TO BE. IT WAS A PRETTY AVERAGE HOTEL IN MOST WAYS BUT PLEASANT ENOUGH.",
-        rating: 4,
-        recommended_for: [4, 3]
-      },
-      {
-        id: 5,
-        username: "Chrissie",
-        avatar: "assets/img/user/perry.png",
-        from: "",
-        title: "Disappointing and overpriced",
-        content: "Disappointing stay as the condition of the hotel was the exact opposite of hotel nikko in saigon- Do not eat the food in this hotel, it is not only overprized but it also lacks in freshness and quality. The pool and fitness area looked alrite. The staff was helpful. The bar only offered one type of wine by the glass. We saw a bottle of wine called 'Apothic Red' which cost $12 in Aspen, CO in a bottle shop and about $30 in an expensive restaurant in Aspen. The hotel offered this inexpensive wine for &100?? We had a laugh and ended up having a drink in a different hotel. I would highly recommend hotel nikko in Saigon BUT not in hanoi",
-        rating: 4,
-        recommended_for: [4, 3]
       }
     ]
-  },
-  {
+  }
+
+
+  
+  /*,{
     id: 2,
     name: "Hanoi Fortuna Hotel",
     rating: 3.7,
@@ -144,8 +108,8 @@ export let HOTELS = [
       }
     ],
     reviews: []
-  },
-  {
+  },*/
+  /*{
     id: 3,
     name: "Pullman Hanoi Hotel",
     rating: 4.1,
@@ -414,5 +378,5 @@ export let HOTELS = [
       }
     ],
     reviews: []
-  }
+  }*/
 ]

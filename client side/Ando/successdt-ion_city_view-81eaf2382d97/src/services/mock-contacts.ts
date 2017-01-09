@@ -1,5 +1,5 @@
 export let CONTACTS = [
-  {
+ /* {
     id: 0,
     name: 'Ben Sparrow',
     lastText: 'You on your way?',
@@ -48,5 +48,5 @@ export let CONTACTS = [
     lastText: 'Hey, it\'s me',
     face: 'assets/img/user/max.png',
     group: 'Family'
-  }
+  }*/
 ]

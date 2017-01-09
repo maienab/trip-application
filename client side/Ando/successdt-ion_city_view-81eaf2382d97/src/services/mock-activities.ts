@@ -1,5 +1,5 @@
 export let ACTIVITIES = [
-  {
+  /*{
     id: 1,
     image: "assets/img/card/img_1.png",
     user: {
@@ -133,5 +133,5 @@ export let ACTIVITIES = [
         name: "Local Culture"
       },
     ]
-  }
+  }*/
 ]

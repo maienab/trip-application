@@ -1,5 +1,5 @@
 export let ATTRACTIONS = [
-  {
+  /*{
     id: 1,
     name: "Hoan Kiem Lake",
     address: "Pho Le Thai To, Hanoi Vietnam",
@@ -275,5 +275,5 @@ export let ATTRACTIONS = [
     ],
     thumb: "assets/img/attraction/thumb/img_6.jpg",
     reviews: []
-  }
+  }*/
 ]
