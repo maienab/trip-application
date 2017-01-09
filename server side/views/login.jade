@@ -1,34 +1,63 @@
 extends layout
 
 block content
-  .row.login
-    .col-md-6.border-right
-      h1 Admin Login
-      hr
+  #contact.content-section-b
+    .container
+      .row
+        .col-md-6.wrap_title
+          .text-center
+            h2 
+              i.fa.fa-user-secret
+              |  Admin Login
 
-      form(method="post" action="/login/admin")
-        .form-group
-          label Username
-          input.form-control(type="text" name="username")
+          form(role='form', action='', method='post')
+            .form-group
+              label(for='InputName') Username
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              .input-group
+                input#InputName.form-control(type='text', name='InputName', placeholder='Enter Username', required='')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                span.input-group-addon
+                  i.glyphicon.glyphicon-ok.form-control-feedback
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            .form-group
+              label(for='InputEmail') Email
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              .input-group
+                input#InputEmail.form-control(type='email', name='InputEmail', placeholder='Enter Email', required='')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                span.input-group-addon
+                  i.glyphicon.glyphicon-ok.form-control-feedback
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            input#submit.btn.wow.tada.btn-embossed.btn-primary.pull-right(type='submit', name='submit', value='Login')
 
-        .form-group
-          label Password
-          input.form-control(type="password" name="password")
-
-        button.btn.btn-primary(type="submit") Login
-
-    .col-md-6
-      h1 Company Login
-      hr
-
-      form(method="post" action="/login/company")
-        .form-group
-          label Username
-          input.form-control(type="text" name="username")
-
-        .form-group
-          label Password
-          input.form-control(type="password" name="password")
-
-        button.btn.btn-primary(type="submit") Login
+        .col-md-6.wrap_title
+          .text-center
+            h2 
+              i.fa.fa-user 
+              |  Agent Login
+          form(role='form', action='', method='post')
+            .form-group
+              label(for='InputName') Username
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              .input-group
+                input#InputName.form-control(type='text', name='InputName', placeholder='Enter Username', required='')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                span.input-group-addon
+                  i.glyphicon.glyphicon-ok.form-control-feedback
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            .form-group
+              label(for='InputEmail') Email
+              | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+              .input-group
+                input#InputEmail.form-control(type='email', name='InputEmail', placeholder='Enter Email', required='')
+                | &#x9;&#x9;&#x9;&#x9;&#x9;&#x9;&#x9;
+                span.input-group-addon
+                  i.glyphicon.glyphicon-ok.form-control-feedback
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            | &#x9;&#x9;&#x9;&#x9;&#x9;
+            input#submit.btn.wow.tada.btn-embossed.btn-primary.pull-right(type='submit', name='submit', value='Login')
 
